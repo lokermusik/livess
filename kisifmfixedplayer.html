@@ -1,30 +1,57 @@
-<script src="src/jquery-3.0.0.min.js"></script>
-<link href="src/mycast.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<style>
-div.myCast {
-position: absolute;
-bottom: 0px;
-left: 0px;
-right: 0px;
-width: 90%;
-}
-</style>
-<script src="src/jquery.js"></script>
-<script src="src/pace.js"></script>
-<script src="src/gsap.js"></script>
-<script src="src/TweenMax.js"></script>
-<script src="src/splitting.js"></script>
-<script src="src/simpleParallax.js"></script>
-<script src="src/swiper.js"></script>
-<script src="src/wow.js"></script>
-<script src="src/jquery.magnific-popup.js">
-</script>
-<script src="src/main.js"></script>
-<div class="myCast" id="stream3"></div>
-<script src="src/myCastmince.js"></script>
+<body style="background-color:#282828;">
+<center>
+<div id="lunaradio" style='width:90%; height:70px;
+-webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;'>
+<div style="overflow:hidden; height:70px; width:90%;"></div>
+</div>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="lunaradio.min.js"></script>
 <script>
-    $("#stream3").myCast({
-	    URL: 'https://live.kisifm.com/listen/kisifm', version: 'icecast', mount_point: 'kisifm', vertical_layout: false, 
-    bg: 'black', accent: 'cyan', blur: true, autoplay: true, enable_cors: false, });
+$("#lunaradio").lunaradio({
+	token: "aWlpIGFgXltoV2JXZGcgVWFf",
+	userinterface: "small",
+	backgroundcolor: "(255,255,255,1)",
+	fontcolor: "#CCFFFF",
+	hightlightcolor: "#CCFFFF",
+	fontname: "",
+	googlefont: "",
+	fontratio: "0.5",
+	radioname: "KISI FM",
+	scroll: "true",
+	coverimage: "https://i.imgur.com/ZaWgsW0.jpg",
+	onlycoverimage: "false",
+	coverstyle: "square",
+	usevisualizer: "real",
+	visualizertype: "6",
+	itunestoken: "1l3v5uW",
+	metadatatechnic: "proxi",
+	ownmetadataurl: "",
+	streamurl: "https://live.kisifm.com/listen/kisifm",
+	streamtype: "icecast2",
+	icecastmountpoint: "/kisifm",
+	radionomyid: "",
+	radionomyapikey: "",
+	radiojarid: "",
+	radiocoid: "sdef46f462",
+	shoutcastpath: "/live",
+	shoutcastid: "1",
+	streamsuffix: "",
+	metadatainterval: "10000",
+	volume: "40",
+	debug: "false",
+	multicolorvisualizer: "true",
+});
 </script>
+</center>
