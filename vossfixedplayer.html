@@ -1,0 +1,30 @@
+<script src="src/jquery-3.0.0.min.js"></script>
+<link href="src/mycast.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+div.myCast {
+position: absolute;
+bottom: 0px;
+left: 0px;
+right: 0px;
+width: 90%;
+}
+</style>
+<script src="src/jquery.js"></script>
+<script src="src/pace.js"></script>
+<script src="src/gsap.js"></script>
+<script src="src/TweenMax.js"></script>
+<script src="src/splitting.js"></script>
+<script src="src/simpleParallax.js"></script>
+<script src="src/swiper.js"></script>
+<script src="src/wow.js"></script>
+<script src="src/jquery.magnific-popup.js">
+</script>
+<script src="src/main.js"></script>
+<div class="myCast" id="stream3"></div>
+<script src="src/myCastmince.js"></script>
+<script>
+    $("#stream3").myCast({
+	    URL: 'https://live.voss.my.id/listen/voss', version: 'icecast', mount_point: 'voss', vertical_layout: false, 
+    bg: 'black', accent: 'blue', blur: true, autoplay: true, enable_cors: false, });
+</script>
