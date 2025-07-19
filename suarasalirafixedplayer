@@ -1,0 +1,56 @@
+<center>
+<div id="lunaradio" style='width:90%; height:70px;
+-webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;'>
+<div style="overflow:hidden; height:70px; width:90%;"></div>
+</div>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="lunaradio.min.js"></script>
+<script>
+$("#lunaradio").lunaradio({
+	token: "aWlpIGFgXltoV2JXZGcgVWFf",
+	userinterface: "small",
+	backgroundcolor: "(255,255,255,1)",
+	fontcolor: "#000000",
+	hightlightcolor: "#DAA06D",
+	fontname: "",
+	googlefont: "",
+	fontratio: "0.5",
+	radioname: "SUARA SALIRA",
+	scroll: "true",
+	coverimage: "https://i.imgur.com/NV4Irpq.png",
+	onlycoverimage: "false",
+	coverstyle: "square",
+	usevisualizer: "real",
+	visualizertype: "6",
+	itunestoken: "1l3v5uW",
+	metadatatechnic: "proxi",
+	ownmetadataurl: "",
+	streamurl: "https://live.suarasalira.com/listen/suarasalira",
+	streamtype: "icecast2",
+	icecastmountpoint: "/stream",
+	radionomyid: "",
+	radionomyapikey: "",
+	radiojarid: "",
+	radiocoid: "sdef46f462",
+	shoutcastpath: "/live",
+	shoutcastid: "1",
+	streamsuffix: "",
+	metadatainterval: "10000",
+	volume: "40",
+	debug: "false",
+	multicolorvisualizer: "true",
+});
+</script>
+</center>
