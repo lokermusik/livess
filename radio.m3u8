@@ -24,6 +24,8 @@ https://play.bilitonesefm.com/listen/radiohitzfm/stream
 https://play.bilitonesefm.com/listen/radiobfm/stream
 #EXTINF:-1 tvg-logo="" group-title="Radio",deHills Jakarta
 https://live.dehills.id/listen/dehills/stream
+#EXTINF:-1 tvg-logo="" group-title="Radio",RADIO BOLA Jakarta
+https://live.radiobola.co.id/listen/radiobola/stream
 #EXTINF:-1 tvg-logo="" group-title="Radio",RMK Radio Ciamis
 https://ini.radiomasakini.com/listen/rmk/rmk
 #EXTINF:-1 tvg-logo="" group-title="Radio",Harley Digital Radio Surabaya
